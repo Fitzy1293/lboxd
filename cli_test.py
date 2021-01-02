@@ -1,0 +1,2 @@
+import lboxd
+lboxd.main()

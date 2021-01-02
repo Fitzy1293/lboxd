@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "lboxd"
+version = "1.1.2"
+description = "Letterboxd user tools."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8.5"
+rich = "^9.6.1"
+bs4 = "^0.0.1"
+requests = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+lboxd = "lboxd:main"
