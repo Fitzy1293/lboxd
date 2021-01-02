@@ -1,5 +1,16 @@
 
-# lboxd <br> An unofficial letterboxdcom API
+# lboxd <br> An unofficial letterboxd.com API
+
+Get reviews from letterboxd users. Done with pure HTML parsing.
+
+## Development Environment
+
+- Ubuntu 20.04 lts
+
+- Python 3.8.5
+
+This has not been tested on Windows, there may be encoding problems.
+
 
 # Installation
 
@@ -47,13 +58,6 @@ for review in lboxdlist(user='daqoon'):
 ![Redlettermedia example](https://i.imgur.com/YXjwaN9.png)
 
 
-# Testing Environment
-
-- Ubuntu 20.04 lts
-
-- Python 3.8.5
-
-This has not been tested on Windows, there may be encoding problems.
 
 # CLI
 
