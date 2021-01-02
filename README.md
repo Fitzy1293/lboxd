@@ -43,9 +43,9 @@ for review in lboxd.reviews(user='redlettermedia', count=5):
 from lboxd import lboxdlist
 from rich import print as rprint
 
-for review in lboxdlist(user='daqoon'):
-    title = review ['title']
-    rating = review['rating']
+for movie in lboxdlist(user='daqoon'):
+    title = movie ['title']
+    rating = movie['rating']
     richTitle = f'[yellow]Title:[/yellow] [red]{title}[/red]'
 
     if rating:
